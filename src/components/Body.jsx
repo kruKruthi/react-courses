@@ -12,11 +12,11 @@ const Body = () => {
       <button
         className="filter-button"
         onClick={() => {
-          const responseList = listOfRest.filter((result) => result.info.avgRating > 4.4);
+          const responseList = listOfRest.filter((result) => result.info.avgRating > 4);
           setListOfRest(responseList);
         }}
       >
-        Top Rated Restaurantent
+        Top Rated Restaurant
       </button>
     </div>
     <div className="restaurant-card">

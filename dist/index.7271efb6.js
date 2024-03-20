@@ -27477,10 +27477,10 @@ const Body = ()=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                     className: "filter-button",
                     onClick: ()=>{
-                        const responseList = listOfRest.filter((result)=>result.info.avgRating > 4.4);
+                        const responseList = listOfRest.filter((result)=>result.info.avgRating > 4);
                         setListOfRest(responseList);
                     },
-                    children: "Top Rated Restaurantent"
+                    children: "Top Rated Restaurant"
                 }, void 0, false, {
                     fileName: "src/components/Body.jsx",
                     lineNumber: 12,
