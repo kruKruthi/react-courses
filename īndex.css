@@ -20,7 +20,7 @@
     margin: 10px;
 }
 
-.res-card {
+.res-card, .shimmer-container {
     width: 200px;
     padding: 10px;
     background-color: cadetblue;
@@ -42,7 +42,12 @@
     height: 150px;
 }
 
-.restaurant-card {
+.restaurant-card, .shimmer-card {
     display: flex;
     flex-wrap: wrap;
+}
+
+.login-button {
+    margin: 5px;
+    height: 50px;
 }
