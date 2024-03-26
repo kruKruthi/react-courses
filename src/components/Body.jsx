@@ -2,6 +2,7 @@ import RestaurantCards from "./RestaurantCards";
 import { useState, useEffect } from "react";
 import resList from "../utils/mockData";
 import Shimmer from "./Shimmer";
+import InterviewQuestion from "./InterviewQuestion";
 
 const Body = () => {
   const [listOfRest, setListOfRest] = useState([]);
@@ -52,6 +53,7 @@ const Body = () => {
         Top Rated Restaurant
       </button>
     </div>
+    <div><InterviewQuestion /></div>
     <div className="restaurant-card">
       {filteredRestaurant.map((restaurant) => (
         <RestaurantCards key={restaurant.info.id} resData={restaurant} />
