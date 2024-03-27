@@ -15,16 +15,37 @@ const InterviewQuestion = () => {
     setRadioStatus("Post");
   };
 
-  return(
-    <div  >
-      <input type="radio" onChange={fetchPostData} checked={radioStatus === 'Post' ? "Post" : ""}/> Post
-      <input type="radio" onChange={fetchUserData} checked={radioStatus === 'User'? "User" : ""}/> User
+  const listDiaplsy = () => {
+    return (
     <ul>
       {
         radioStatus === "Post" ? postData.map((item) => <li>{item.title}</li>) : userData.map((item) => <li>{item.name}</li>)
       }
     </ul>
+    );
+  }
+
+  return(
+    <>
+    <div  >
+      <input type="radio" onChange={fetchPostData} checked={radioStatus === 'Post' ? "Post" : ""}/> Post
+      <input type="radio" onChange={fetchUserData} checked={radioStatus === 'User'? "User" : ""}/> User
+      {listDiaplsy()}
+    {/* <ul>
+      {
+        radioStatus === "Post" ? postData.map((item) => <li>{item.title}</li>) : userData.map((item) => <li>{item.name}</li>)
+      }
+    </ul> */}
     </div>
+    <div>
+      <select onChange={radioStatus === 'Post' ? fetchPostData : fetchUserData}>
+        <option selected hidden value ="">Select any one</option>
+        <option value={radioStatus === 'Post'}>Post</option>
+        <option value={radioStatus === 'User'}>User</option>
+      </select>
+      {listDiaplsy()}
+    </div>
+    </>
   );
 };
 

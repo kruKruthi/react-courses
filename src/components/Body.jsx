@@ -12,6 +12,7 @@ const Body = () => {
   useEffect( () => {fetchData()}, []);
 
   const fetchData = async () => {
+    // TO use cors proxy use this url https://corsproxy.io/ in the starting before https
     const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=13.0247291&lng=77.5947532&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
     const jsonResponse = await data.json();
