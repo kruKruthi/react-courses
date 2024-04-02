@@ -1,18 +1,17 @@
-import { LOGO_URL } from "../utils/constant";
+import { PAGE_TITLE } from "../utils/constant";
 
 const Header = () => {
   return (
     <div className="app-header">
-      <div className="logo-container">
-        <img className="logo" src={LOGO_URL}></img>
+      <div className="title-container">
+        <h1>{PAGE_TITLE}</h1>
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
+      <div className="search-box">
+        <input
+          type="text"
+          className="search-text"
+          placeholder="&#61442; Search"
+        ></input>
       </div>
     </div>
   );

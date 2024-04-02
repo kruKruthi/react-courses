@@ -1,28 +1,25 @@
-import RestaurantCards from "./RestaurantCards";
+import TeamCards from "./TeamCards";
 import { useState } from "react";
-import resList from "../utils/mockData";
+import teamsData from "../utils/mockData";
 
 
 const Body = () => {
-  const [listOfRest, setListOfRest] = useState(resList);
+  const [listOfUsers, setListOfUsers] = useState(teamsData);
+  // const [filteredList, setFilteredUser] = useState([]);
+
+  let memberData = listOfUsers.filter((user) => user.role === "member");
+  let adminData = listOfUsers.filter((user) => user.role === "admin");
+  // setFilteredUser(memberData);
 
   return (
   <div className="body-layout">
-    <div className="filter">
-      <button
-        className="filter-button"
-        onClick={() => {
-          const responseList = listOfRest.filter((result) => result.info.avgRating > 4);
-          setListOfRest(responseList);
-        }}
-      >
-        Top Rated Restaurant
-      </button>
+    <h1>Administrators</h1>
+    <div className="admin-card">
+      {adminData.map((user) => <TeamCards data={user} />)}
     </div>
-    <div className="restaurant-card">
-      {listOfRest.map((restaurant) => (
-        <RestaurantCards key={restaurant.info.id} resData={restaurant} />
-      ))}
+    <h1>Members</h1>
+    <div className="member-card">
+      {memberData.map((user) => <TeamCards data={user} />)}
     </div>
   </div>
   );

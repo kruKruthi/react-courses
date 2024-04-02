@@ -2,10 +2,29 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+    padding-left: 1rem;
 }
 
-.logo {
+.title-container {
     width: 130px;
+    font-family: 'Poppins';
+    color: white;
+    text-decoration-color: aliceblue;
+}
+
+.search-text {
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+    padding: 0.3rem;
+    border: 0.1rem;
+}
+
+.app-header {
+    background-color:cadetblue;
+    border: none;
+    position: static;
+    width: auto;
 }
 
 .nav-items > ul {
@@ -21,10 +40,12 @@
 }
 
 .res-card {
+    border-radius: 1.5rem;
     width: 200px;
     padding: 10px;
-    background-color: cadetblue;
+    background-color: white;
     margin: 5px;
+    border: 2rem;
 }
 
 .res-card:hover {
@@ -42,7 +63,7 @@
     height: 150px;
 }
 
-.restaurant-card {
+.admin-card, .member-card {
     display: flex;
     flex-wrap: wrap;
 }
