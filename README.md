@@ -32,5 +32,11 @@
 # Screenshot of the working app from local
   1. Shimmer UI on page load
     <img src="./ShimmerUi.PNG" />
-
-
+  2. Team Directory View of Administrator with header and search
+    <img src="./AdminSection.PNG" />
+  3. Team Directory View of Member
+    <img src="./Member Section.PNG" />
+  4. Curser Hover animation and mobile view
+    <img src="./CurserHover.PNG" />
+  5. Shimmer UI on page load mobile view
+    <img src="./Mobile-ShimmerUi.PNG" />
