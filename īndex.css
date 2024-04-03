@@ -9,7 +9,12 @@
     border-radius: 1.5rem;
     margin-top: 1.5rem;
     margin-right: 0.5rem;
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.RF8hdNm5eOnLDpG_GSu5NwHaHN&pid=Api&P=0&h=180');
+    background-position: 5px 5px; 
+    background-size: 15px;
+    background-repeat: no-repeat;
     padding: 0.3rem;
+    padding-left: 25px;
     border: 0.1rem;
 }
 
@@ -27,7 +32,7 @@
     color: gray;
 }
 
-.res-card {
+.res-card, .shimmer-card {
     border-radius: 1.5rem;
     padding: 10px;
     background-color: whitesmoke;
@@ -66,7 +71,7 @@
     margin-inline-start: 10px;
 }
 
-.admin-card, .member-card {
+.admin-card, .member-card, .shimmer-container {
     display: flex;
     flex-wrap: wrap;
 }

@@ -1,3 +1,4 @@
+// No longer Required as we are doing API call
 const teamsData = [
   {
       "first_name": "Mehetabel",
@@ -185,21 +186,21 @@ const teamsData = [
       "first_name": "Eddy",
       "last_name": "Hulles",
       "email": "ehullesq@squidoo.com",
-      "img": "http://dummyimage.com/196x191.jpg/5fa2dd/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=pixel",
       "role": "member"
   },
   {
       "first_name": "Ofelia",
       "last_name": "Hollyar",
       "email": "ohollyarr@de.vu",
-      "img": "http://dummyimage.com/111x220.bmp/5fa2dd/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=pixel",
       "role": "admin"
   },
   {
       "first_name": "Korey",
       "last_name": "Kordt",
       "email": "kkordts@earthlink.net",
-      "img": "http://dummyimage.com/109x149.bmp/dddddd/000000",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=pixel",
       "role": "admin"
   },
   {
@@ -213,7 +214,7 @@ const teamsData = [
       "first_name": "Silvanus",
       "last_name": "Embleton",
       "email": "sembletonu@bloglovin.com",
-      "img": "http://dummyimage.com/236x219.jpg/cc0000/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=male",
       "role": "admin"
   },
   {
@@ -234,7 +235,7 @@ const teamsData = [
       "first_name": "Ileane",
       "last_name": "Gostall",
       "email": "igostallx@spiegel.de",
-      "img": "http://dummyimage.com/103x175.bmp/dddddd/000000",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=pixel",
       "role": "member"
   },
   {
@@ -255,21 +256,21 @@ const teamsData = [
       "first_name": "Ketti",
       "last_name": "Brundale",
       "email": "kbrundale10@e-recht24.de",
-      "img": "http://dummyimage.com/148x212.jpg/dddddd/000000",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=pixel",
       "role": "admin"
   },
   {
       "first_name": "Trenna",
       "last_name": "Forestall",
       "email": "tforestall11@statcounter.com",
-      "img": "http://dummyimage.com/129x191.jpg/cc0000/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=female",
       "role": "admin"
   },
   {
       "first_name": "Bertram",
       "last_name": "Clows",
       "email": "bclows12@jimdo.com",
-      "img": "http://dummyimage.com/216x166.jpg/dddddd/000000",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=female",
       "role": "member"
   },
   {
@@ -283,14 +284,14 @@ const teamsData = [
       "first_name": "Noach",
       "last_name": "Poe",
       "email": "npoe14@irs.gov",
-      "img": "http://dummyimage.com/134x180.bmp/ff4444/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=female",
       "role": "member"
   },
   {
       "first_name": "Roslyn",
       "last_name": "Hillborne",
       "email": "rhillborne15@behance.net",
-      "img": "http://dummyimage.com/196x149.jpg/ff4444/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=female",
       "role": "admin"
   },
   {
@@ -318,14 +319,14 @@ const teamsData = [
       "first_name": "Tripp",
       "last_name": "Chessil",
       "email": "tchessil19@live.com",
-      "img": "http://dummyimage.com/197x175.bmp/ff4444/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=female",
       "role": "member"
   },
   {
       "first_name": "Claudelle",
       "last_name": "Braidwood",
       "email": "cbraidwood1a@cocolog-nifty.com",
-      "img": "http://dummyimage.com/106x220.bmp/cc0000/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=female",
       "role": "admin"
   },
   {
@@ -339,21 +340,21 @@ const teamsData = [
       "first_name": "Tudor",
       "last_name": "Gile",
       "email": "tgile1c@istockphoto.com",
-      "img": "http://dummyimage.com/249x100.png/ff4444/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=male",
       "role": "admin"
   },
   {
       "first_name": "Briant",
       "last_name": "Hallowes",
       "email": "bhallowes1d@wikimedia.org",
-      "img": "http://dummyimage.com/138x125.png/5fa2dd/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=male",
       "role": "member"
   },
   {
       "first_name": "Ethe",
       "last_name": "Amyes",
       "email": "eamyes1e@usda.gov",
-      "img": "http://dummyimage.com/207x185.png/5fa2dd/ffffff",
+      "img": "https://xsgames.co/randomusers/avatar.php?g=male",
       "role": "member"
   }
 ]

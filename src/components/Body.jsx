@@ -1,12 +1,23 @@
 import TeamCards from "./TeamCards";
-import teamsData from "../utils/mockData";
-import { MEMBER_TITLE, ADMIN_TITLE } from "../utils/constant";
+import ShimmerCard from "./ShimmerCard";
+import { MEMBER_TITLE, ADMIN_TITLE, USER_URL } from "../utils/constant";
+import { useState, useEffect } from "react";
 
 const Body = () => {
-  let memberData = teamsData.filter((user) => user.role === "member");
-  let adminData = teamsData.filter((user) => user.role === "admin");
+  const [userData, setUserData] = useState([]);
 
-  return (
+  useEffect(() => {fetchData()}, {});
+
+  const fetchData = async () => {
+    const data = await fetch(USER_URL);
+    const json = await data.json();
+    setUserData(json);
+  }
+
+  let memberData = userData.filter((user) => user.role === "member");
+  let adminData = userData.filter((user) => user.role === "admin");
+
+  return userData.length === 0 ? <ShimmerCard /> : (
   <div>
     <div className="admin">
       <h1 className="section-layout">{ADMIN_TITLE}</h1>

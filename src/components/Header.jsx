@@ -10,7 +10,7 @@ const Header = () => {
         <input
           type="text"
           className="search-text"
-          placeholder="&#61442; Search"
+          placeholder="Search"
         ></input>
       </div>
     </div>
