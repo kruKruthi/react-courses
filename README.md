@@ -29,5 +29,8 @@
   3. Do npm install, npm start to start local server.
   4. On browser trigger "http://localhost:1234" to view the Team Directory wep bage.
 
+# Screenshot of the working app from local
+  1. Shimmer UI on page load
+    <img src="./ShimmerUi.PNG" />
 
 
